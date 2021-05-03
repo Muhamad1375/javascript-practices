@@ -67,3 +67,25 @@ console.log(course + duration);
 let a = 'math ';
     a += 'is hard';
 console.log(a);
+
+const learning = 'learning Javascript is Great';
+    let email = 'Mohammadali.fallahzade@gmail.com';
+let output;
+//lenght
+output = learning.length;
+//concat
+output = learning.concat(" ", "and fun");
+//uppercase
+output = learning.toUpperCase();
+//lowercase
+output = learning.toLowerCase();
+//indexof
+output = learning.indexOf('Javascript');
+output = email.indexOf('@');
+if (output > 0) {
+    console.log('valid Email')
+}else{
+    console.log('invalid Email')
+};
+
+console.log(output);
